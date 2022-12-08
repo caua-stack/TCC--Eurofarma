@@ -1,0 +1,165 @@
+@media (max-width:1631) {
+    .destaques {
+        display: flex;
+        flex-wrap: wrap;
+        width: 66%;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        gap: 28px;
+        color: #000;
+        font-size: 13px;
+        align-items: baseline;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1256px) {
+
+    #barra--de--pesquisa {
+        color: #000;
+        border: 1px solid #000;
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 12px;
+        width: 260px;
+    }
+
+    .grad {
+        background: rgb(24, 47, 173);
+        background: linear-gradient(90deg, rgba(24, 47, 173, 1) 0%, rgba(14, 93, 198, 1) 50%, rgba(29, 29, 175, 1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        width: 100px;
+        height: 76px;
+        font-size: 18px;
+    }
+
+    .pesquisar {
+        position: relative;
+        padding: 36px 10px 20px 10px;
+        margin: 0px;
+    }
+
+    .header3 {
+        color: white;
+        background-color: #282828;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0px 10px 0px 10px;
+        border-top: 1px solid white;
+    }
+
+    .destaques {
+        display: flex;
+        flex-wrap: wrap;
+        width: 66%;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        gap: 28px;
+        color: #000;
+        font-size: 13px;
+        align-items: baseline;
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width: 807px) {
+
+    .input1,
+    .lupa,
+    .menu-header2,
+    .icones,
+    .temq-sumir,
+    .x-menup {
+        display: none;
+    }
+
+    .lupa-responsiva {
+        display: inline;
+    }
+
+    /* .x-menup {
+        display: inline;
+    } */
+     
+    i {
+        font-size: 24px;
+    }
+
+    .grad {
+        padding-top: 10px;
+    }
+
+    .menu-resp {
+        display: block;
+    }
+
+     nav {
+      display: flex;
+        position: absolute;
+        height: 100vh;
+        width: 50%;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        border: 2px solid black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        opacity: 0.9;
+        color: #000;
+        transform: translatex(-100%);
+    }  
+    
+    .ativo {
+        transform: translatex(0%);
+        transition: 0.4s;
+    }
+
+    .menu-header3-resp {
+        text-decoration: none;
+        color: black;
+    }
+
+    .destaques {
+        display: flex;
+        flex-wrap: wrap;
+        width: 66%;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        gap: 28px;
+        color: #000;
+        font-size: 13px;
+        align-items: baseline;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:655px) {
+    .cards {
+        text-align: center;
+        margin: 0 auto;
+        width: 285px;
+        height: 488px;
+        border: 1px solid rgba(4,4,4,0.1);
+        border-radius: 20px;
+        padding-bottom: 10px;
+        transition: 0,4s;
+    }
+
+    .camisas {
+        border-radius: 20px;
+        text-align: center;
+        margin: 0 auto;
+        width: 278px;
+        border: 1px solid rgba(4,4,4,0.1);
+        border-radius:  20px 20px 0px 0px;
+        height: 325px;
+        object-fit: cover;
+    }
+}
